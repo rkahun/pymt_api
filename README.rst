@@ -3,6 +3,7 @@ PyMT_API
 ========
 
 
+
 .. image:: https://img.shields.io/pypi/v/pymt_api.svg
         :target: https://pypi.python.org/pypi/pymt_api
 
@@ -21,8 +22,7 @@ PyMT_API
 
 
 Python interface to Metatrader 4 Terminal.
-Rethinking of [Pytrader_API](https://github.com/rkahun/PyTrader-python-mt4-mt5-trading-api-connector-drag-n-drop).
-
+Rethinking of Pytrader_API_ project.
 
 * Free software: MIT license
 * Documentation: https://pymt-api.readthedocs.io.
@@ -36,8 +36,8 @@ Features
 Credits
 -------
 
-Inspirated by [Pytrader_API](https://github.com/TheSnowGuru/PyTrader-python-mt4-mt5-trading-api-connector-drag-n-drop) project of [TheSnowGuru](https://github.com/TheSnowGuru/).
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
+.. _Pytrader_API: https://github.com/TheSnowGuru/PyTrader-python-mt4-mt5-trading-api-connector-drag-n-drop
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
