@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-"""Tests for `pyquantsx_mt4_connector` package."""
+"""Tests for `pymt_api` package."""
 
 import pytest
 
 
-from pyquantsx_mt4_connector import pyquantsx_mt4_connector
+from pymt_api import pymt_api
 
 
 @pytest.fixture
@@ -15,7 +15,7 @@ def response():
     See more at: http://doc.pytest.org/en/latest/fixture.html
     """
     # import requests
-    # return requests.get('https://github.com/audreyr/cookiecutter-pypackage')
+    # return requests.get('https://github.com/rkahun/pymt_api')
 
 
 def test_content(response):

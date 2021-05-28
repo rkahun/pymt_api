@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=pyquantsx_mt4_connector
+set SPHINXPROJ=pymt_api
 
 if "%1" == "" goto help
 

@@ -1,4 +1,4 @@
-* PyMT4i_API version:
+* PyMT_API version:
 * Python version:
 * Operating System:
 

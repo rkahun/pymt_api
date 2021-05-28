@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = pyquantsx_mt4_connector
+SPHINXPROJ    = pymt_api
 SOURCEDIR     = .
 BUILDDIR      = _build
 

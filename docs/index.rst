@@ -10,6 +10,7 @@ Welcome to PyMT_API's documentation!
    usage
    modules
    contributing
+   authors
    history
 
 Indices and tables

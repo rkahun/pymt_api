@@ -48,7 +48,7 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint: ## check style with flake8
-	flake8 pyquantsx_mt4_connector tests
+	flake8 pymt_api tests
 
 test: ## run tests quickly with the default Python
 	pytest
@@ -57,15 +57,15 @@ test-all: ## run tests on every Python version with tox
 	tox
 
 coverage: ## check code coverage quickly with the default Python
-	coverage run --source pyquantsx_mt4_connector -m pytest
+	coverage run --source pymt_api -m pytest
 	coverage report -m
 	coverage html
 	$(BROWSER) htmlcov/index.html
 
 docs: ## generate Sphinx HTML documentation, including API docs
-	rm -f docs/pyquantsx_mt4_connector.rst
+	rm -f docs/pymt_api.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ pyquantsx_mt4_connector
+	sphinx-apidoc -o docs/ pymt_api
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html
