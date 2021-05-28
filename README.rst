@@ -14,15 +14,19 @@ PyMT_API
         :target: https://pymt-api.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
 
-
 .. image:: https://pyup.io/repos/github/rkahun/pymt_api/shield.svg
      :target: https://pyup.io/repos/github/rkahun/pymt_api/
      :alt: Updates
 
+.. image:: https://pyup.io/repos/github/rkahun/pymt_api/python-3-shield.svg
+     :target: https://pyup.io/repos/github/rkahun/pymt_api/
+     :alt: Python 3
 
 
 Python interface to Metatrader 4 Terminal.
+
 Rethinking of Pytrader_API_ project.
+
 
 * Free software: MIT license
 * Documentation: https://pymt-api.readthedocs.io.
