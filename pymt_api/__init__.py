@@ -10,8 +10,11 @@ DIR = os.path.split(__file__)[0]
 __all__ = ['PyMT_API']
 
 class PyMT_API:
+    """Top-level package for PyMT_API."""
 
-    __version__: str = '0.0.7'
+    __author__ = """Laszlo Szabo"""
+    __email__ = 'rkahun@gmail.com'
+    __version__:str = '0.0.7'
 
     from .vars import (
         commands, ret_descs
